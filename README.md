@@ -35,43 +35,6 @@ The application supports multiple storage types, advanced filtering and reportin
 
 ---
 
-## 🏗️ Architecture
-# 🏋️ Gym Management Application (JavaFX)
-
-A Java-based Gym Management application developed using a layered architecture.  
-The application supports multiple storage types, advanced filtering and reporting, and a full undo/redo system implemented using the Command design pattern.
-
----
-
-## 📌 Features
-
-### 👤 Client Management
-- Add, update, delete clients
-- Filter clients by name and email
-- Cascade delete: removing a client also removes all associated sessions
-
-### 📅 Session Management
-- Add, update, delete sessions
-- Filter sessions by client ID and date
-- Sessions include date, time, and description
-
-### 📊 Reports
-- Sessions of a client between two dates
-- Sessions containing a keyword
-- Session count per client
-- Next upcoming session per client
-- Sessions grouped by day
-
-### ↩️ Undo / Redo (Command Pattern)
-- Supports multiple undo/redo operations
-- Works for:
-  - Add / Update / Delete operations
-  - Cascade delete (client + all sessions)
-- Implemented using:
-  - Command pattern
-  - Two-stack mechanism (undo/redo)
-
----
 
 ## 🏗️ Architecture
 
